@@ -21,3 +21,11 @@
 ** Database setup for SQLite
     mysite/settings:
         * Update TIME_ZONE -> 'CET'
+        * Create tables in database before they can be used:
+            - comment out or delete unnecessary apps from INSTALLED_APPS before migrating
+            - To migrate:
+                $ python3 manage.py migrate
+
+
+
+
