@@ -57,7 +57,21 @@
             Question.objects.all
         - add custom method to model Question:
             - def was_published_recently
-        
+
+** Django admin
+    ** Create admin user
+        - Run command: 
+            $ python3 manage.py createsuperuser
+
+    ** Start development server (if not already running): 
+        $ python3 manage.py runserver
+        - navigate to: 
+            http://127.0.0.1:8000/admin/
+
+    ** Make poll app modifiable in the admin
+        polls/admin.py
+
+
 
 
 
