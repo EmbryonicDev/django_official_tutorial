@@ -72,6 +72,12 @@
         polls/admin.py
 
 
+*#*#*#*#*#*#*#*#*#*# Part 3 *#*#*#*#*#*#*#*#*#*#
+    ** Writing more views
+        - add views to polls/views.py
+
+
+
 
 
 
