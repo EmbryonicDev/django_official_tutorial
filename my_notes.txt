@@ -15,3 +15,9 @@
 
 * Point the root URLconf to the polls.urls
     urlpatterns += path("polls/", include("polls.urls"))
+
+
+*#*#*#*#*#*#*#*#*#*# Part 2 *#*#*#*#*#*#*#*#*#*#\
+** Database setup for SQLite
+    mysite/settings:
+        * Update TIME_ZONE -> 'CET'
