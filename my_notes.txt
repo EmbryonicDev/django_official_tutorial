@@ -10,3 +10,5 @@
     python3 manage.py startapp polls
 
 * Create first view in polls/view.py
+
+* Create URLconf in polls directory named urls.py
