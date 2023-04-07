@@ -29,6 +29,10 @@
 ** Creating models
     - add Question / Choice models to polls/models.py
 
+** Activating models
+    - Add to mysite/settings.py / INSTALLED_APPS:
+        "polls.apps.PollsConfig",
+
 
 
 
