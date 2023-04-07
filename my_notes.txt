@@ -12,3 +12,6 @@
 * Create first view in polls/view.py
 
 * Create URLconf in polls directory named urls.py
+
+* Point the root URLconf to the polls.urls
+    urlpatterns += path("polls/", include("polls.urls"))
