@@ -26,6 +26,9 @@
             - To migrate:
                 $ python3 manage.py migrate
 
+** Creating models
+    - add Question / Choice models to polls/models.py
+
 
 
 
