@@ -1,4 +1,8 @@
 from django.db import models
+import datetime
+from django.utils import timezone
+# time zone support docs:
+# https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/
 
 
 class Question(models.Model):
@@ -8,6 +12,9 @@ class Question(models.Model):
     # to integrate human readable name.
     # pub_date = machine-readable
     # 'date published' = human-readable
+
+    def was_published_recently(self):
+        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
 
     def __str__(self):
         return self.question_text
