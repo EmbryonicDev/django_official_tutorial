@@ -1,0 +1,6 @@
+*#*#*#*#*#*#*#*#*#*# Part 1 *#*#*#*#*#*#*#*#*#*#
+* Create project through terminal:
+    django-admin startproject mysite
+
+* Verify project works on development server:
+    python3 manage.py runserver
