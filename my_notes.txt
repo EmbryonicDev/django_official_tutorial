@@ -75,6 +75,8 @@
 *#*#*#*#*#*#*#*#*#*# Part 3 *#*#*#*#*#*#*#*#*#*#
     ** Writing more views
         - add views to polls/views.py
+        - wire new views into polls.urls by adding path()'s
+        
 
 
 
