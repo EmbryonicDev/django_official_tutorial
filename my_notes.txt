@@ -35,6 +35,21 @@
     - migrate models to database:
         $ python3 manage.py makemigrations polls
 
+    *** Optional ***
+    - Run command that takes migration names and prints their SQL:
+        $ python3 manage.py sqlmigrate polls 0001
+    - Run command to check for problems in project: 
+        $ python3 manage.py check
+
+    - Run migrate again to create model tables in database:
+        $ python3 manage.py migrate
+
+    ** Change your models (in models.py).
+    ** Run < python manage.py makemigrations ..app_name.. > to create migrations for those changes
+    ** Run < python3 manage.py migrate > to apply those changes to the database
+
+
+
 
 
 
