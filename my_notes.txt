@@ -8,3 +8,5 @@
 
 * Create new app: polls:
     python3 manage.py startapp polls
+
+* Create first view in polls/view.py
