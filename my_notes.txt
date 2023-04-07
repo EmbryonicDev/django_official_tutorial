@@ -32,6 +32,8 @@
 ** Activating models
     - Add to mysite/settings.py / INSTALLED_APPS:
         "polls.apps.PollsConfig",
+    - migrate models to database:
+        $ python3 manage.py makemigrations polls
 
 
 
