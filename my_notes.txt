@@ -1,6 +1,10 @@
 *#*#*#*#*#*#*#*#*#*# Part 1 *#*#*#*#*#*#*#*#*#*#
+
 * Create project through terminal:
     django-admin startproject mysite
 
 * Verify project works on development server:
     python3 manage.py runserver
+
+* Create new app: polls:
+    python3 manage.py startapp polls
