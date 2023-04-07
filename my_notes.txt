@@ -48,6 +48,15 @@
     ** Run < python manage.py makemigrations ..app_name.. > to create migrations for those changes
     ** Run < python3 manage.py migrate > to apply those changes to the database
 
+** Playing with the Django API
+    - Open Python shell:
+        $ python3 manage.py shell
+        - follow steps: 
+            https://docs.djangoproject.com/en/4.2/intro/tutorial02/
+        - add __str__() to each model for a cleared representation when running: 
+            Question.objects.all
+        
+
 
 
 
