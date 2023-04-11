@@ -86,6 +86,7 @@
         - Modify def index in polls/view.py to display questions in bulleted list
         - Update polls/detail.html to display question as heading, and choices as bulleted list
         - Remove hardcoded URL in polls/templates/index
+        - Namespace URL names
 
 
 
