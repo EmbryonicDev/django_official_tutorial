@@ -111,6 +111,9 @@
            - should return False
         - Create test in polls test.py to test future dated Question
             to run test: python3 manage.py test polls
+        - Add 2 more tests:
+            test_was_published_recently_with_old_question
+            test_was_published_recently_with_recent_question
     
 
 
