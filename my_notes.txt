@@ -76,8 +76,13 @@
     ** Writing more views
         - add views to polls/views.py
         - wire new views into polls.urls by adding path()'s
-        
 
+    ** Write more functional views to polls:
+        - detail, results, vote
+
+    ** Create 'templates' directory in polls
+        - Create polls folder in templates folder
+        - Create index.html
 
 
 
