@@ -101,6 +101,16 @@
     - Convert the URLconf
     - Delete some of the old, unneeded views
     - Introduce new views based on Django’s generic views
+
+
+*#*#*#*#*#*#*#*#*#*# Part 5 *#*#*#*#*#*#*#*#*#*#
+** Writing first test
+    - identify bug
+        - Create new Question (with future date) in shell
+        - Running <future_question.was_published_recently()> returns True
+           - should return False
+        - Create test in polls test.py to test future dated Question
+            to run test: python3 manage.py test polls
     
 
 
