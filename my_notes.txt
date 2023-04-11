@@ -114,6 +114,13 @@
         - Add 2 more tests:
             test_was_published_recently_with_old_question
             test_was_published_recently_with_recent_question
+     
+     - When writing tests, always have:
+        - a separate TestClass for each model or view
+        - a separate test method for each set of conditions you want to test
+        - test method names that describe their function
+
+    - to test in terminal: <python3 manage.py test polls>
     
 
 
