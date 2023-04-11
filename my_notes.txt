@@ -83,11 +83,7 @@
     ** Create 'templates' directory in polls
         - Create polls folder in templates folder
         - Create index.html
-
-
-
-
-
+        - Modify def index in polls/view.py to display questions in bulleted list
 
 
 
