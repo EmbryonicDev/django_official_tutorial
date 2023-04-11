@@ -73,20 +73,28 @@
 
 
 *#*#*#*#*#*#*#*#*#*# Part 3 *#*#*#*#*#*#*#*#*#*#
-    ** Writing more views
-        - add views to polls/views.py
-        - wire new views into polls.urls by adding path()'s
+** Writing more views
+    - add views to polls/views.py
+    - wire new views into polls.urls by adding path()'s
 
-    ** Write more functional views to polls:
-        - detail, results, vote
+** Write more functional views to polls:
+    - detail, results, vote
 
-    ** Create 'templates' directory in polls
-        - Create polls folder in templates folder
-        - Create index.html
-        - Modify def index in polls/view.py to display questions in bulleted list
-        - Update polls/detail.html to display question as heading, and choices as bulleted list
-        - Remove hardcoded URL in polls/templates/index
-        - Namespace URL names
+** Create 'templates' directory in polls
+    - Create polls folder in templates folder
+    - Create index.html
+    - Modify def index in polls/view.py to display questions in bulleted list
+    - Update polls/detail.html to display question as heading, and choices as bulleted list
+    - Remove hardcoded URL in polls/templates/index
+    - Namespace URL names
+
+
+*#*#*#*#*#*#*#*#*#*# Part 4 *#*#*#*#*#*#*#*#*#*#
+** Write a minimal form
+    - update “polls/detail.html” to contain <form>
+
+
+    
 
 
 
