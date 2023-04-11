@@ -90,8 +90,11 @@
 
 
 *#*#*#*#*#*#*#*#*#*# Part 4 *#*#*#*#*#*#*#*#*#*#
-** Write a minimal form
-    - update “polls/detail.html” to contain <form>
+** Update “polls/detail.html” to contain <form>
+
+** Add code to def vote
+
+** Change def results to return results.html
 
 
     
