@@ -90,13 +90,17 @@
 
 
 *#*#*#*#*#*#*#*#*#*# Part 4 *#*#*#*#*#*#*#*#*#*#
-** Update “polls/detail.html” to contain <form>
+** Writing simple form:
+    - Update “polls/detail.html” to contain <form>
 
-** Add code to def vote
+    - Add code to def vote
 
-** Change def results to return results.html
+    - Change def results to return results.html
 
-
+** Generic views:
+    - Convert the URLconf
+    - Delete some of the old, unneeded views
+    - Introduce new views based on Django’s generic views
     
 
 
