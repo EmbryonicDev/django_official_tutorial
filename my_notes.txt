@@ -131,4 +131,6 @@
 *** IMPORTANT: update settings file:
         STATIC_URL = '/static/'
 
+** Add background image to index.html via css file    
+
 
