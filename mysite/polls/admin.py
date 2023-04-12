@@ -2,17 +2,17 @@ from django.contrib import admin
 from .models import Question, Choice
 
 
-class QuestionAdmin(admin.ModelAdmin):
-    # Fields without using fieldset format
-    # fields = ["pub_date", "question_text"]
+class ChoiceInline(admin.StackedInline):
+    model = Choice
+    extra = 3
 
-    # Using fieldset format.
-    # 1st field in tuple is title
+
+class QuestionAdmin(admin.ModelAdmin):
     fieldsets = [
         (None, {"fields": ["question_text"]}),
-        ("Date information", {"fields": ["pub_date"]}),
+        ("Date information", {"fields": ["pub_date"], "classes": ["collapse"]}),
     ]
+    inlines = [ChoiceInline]
 
 
 admin.site.register(Question, QuestionAdmin)
-admin.site.register(Choice)
