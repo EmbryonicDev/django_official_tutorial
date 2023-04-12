@@ -141,7 +141,8 @@
 
 ** Customize the admin change list
     - Implement list_display admin option to polls/admin.py.
-        - This adds added fields required to each question as a column
+        - This adds the added fields to each question as a column
+    - Improve table headings by using display() in polls/models.py
     
 
         

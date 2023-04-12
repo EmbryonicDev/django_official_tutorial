@@ -1,6 +1,7 @@
 from django.db import models
 import datetime
 from django.utils import timezone
+from django.contrib import admin
 # time zone support docs:
 # https://docs.djangoproject.com/en/4.2/topics/i18n/timezones/
 
@@ -13,6 +14,11 @@ class Question(models.Model):
     # pub_date = machine-readable
     # 'date published' = human-readable
 
+    @admin.display(
+        boolean=True,
+        ordering='pub_date',
+        description="Published recently?"
+    )
     def was_published_recently(self):
         now = timezone.now()
         # return self.pub_date <= timezone.now() - datetime.timedelta(days=1)
