@@ -121,10 +121,14 @@
         - test method names that describe their function
 
     - to test in terminal: <python3 manage.py test polls>
-    
 
 
+*#*#*#*#*#*#*#*#*#*# Part 6 *#*#*#*#*#*#*#*#*#*#
+** New directories & file: polls/static/polls/style.CSS
 
-
+** Add styling to new style.css file to make li a green.
+** index.html: load static & add css link
+*** IMPORTANT: update settings file:
+        STATIC_URL = '/static/'
 
 
