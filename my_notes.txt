@@ -143,6 +143,7 @@
     - Implement list_display admin option to polls/admin.py.
         - This adds the added fields to each question as a column
     - Improve table headings by using display() in polls/models.py
+    - Add filter to admin page by adding list_filter to polls.admin.py
     
 
         
