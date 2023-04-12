@@ -133,4 +133,7 @@
 
 ** Add background image to index.html via css file    
 
+*#*#*#*#*#*#*#*#*#*# Part 7 *#*#*#*#*#*#*#*#*#*#
+** Customize the admin form
+
 
