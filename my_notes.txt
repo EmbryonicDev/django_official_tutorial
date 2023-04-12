@@ -138,6 +138,10 @@
     - Remove the register() call for the Choice model. Then, edit the Question registration
         - This tells Django: “Choice objects are edited on the Question admin page. By default, provide enough fields for 3 choices.”
     - Change ChoiceInline(admin.StackedInline) -> (admin.TabularInLine)
+
+** Customize the admin change list
+    - Implement list_display admin option to polls/admin.py.
+        - This adds added fields required to each question as a column
     
 
         
