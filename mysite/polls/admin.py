@@ -1,6 +1,13 @@
 from django.contrib import admin
 from .models import Question, Choice
 
+"""
+More efficient way to change admin page title.
+By using the below line of code you don't have
+to copy base_site.html from Django root dir
+"""
+# admin.site.site_header = "My Polls Administration"
+
 # Stacked view that is not efficient with space
 # in this instance:
 # class ChoiceInline(admin.StackedInline):

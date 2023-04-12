@@ -144,6 +144,19 @@
         - This adds the added fields to each question as a column
     - Improve table headings by using display() in polls/models.py
     - Add filter to admin page by adding list_filter to polls.admin.py
+    - Add search_field to QuestionAdmin
+
+** Customize the admin look & feel
+    - Customizing your project’s templates
+        - Create mysite/templates
+        - Add DIRS option in the TEMPLATES setting
+        - Copy base_site.html 
+            from: 
+                /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/django
+            to: 
+                mysite/templates/admin/
+            * to find django file location:
+                - python3 -c "import django; print(django.__path__)"
     
 
         
