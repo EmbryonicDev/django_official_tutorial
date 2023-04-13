@@ -157,6 +157,23 @@
                 mysite/templates/admin/
             * to find django file location:
                 - python3 -c "import django; print(django.__path__)"
+
+
+
+*#*#*#*#*#*#*#*#*#*# Part 8 *#*#*#*#*#*#*#*#*#*#
+** Install django debug toolbar:
+    - ALWAYS FOLLOW INSTRUCTIONS FROM https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
+    - python3 -m pip install django-debug-toolbar
+    - To install app, add "debug_toolbar" to INSTALLED_APPS
+        - Add URLs to mysite/urls.py
+            - path('__debug__/', include('debug_toolbar.urls')),
+    - Add Middleware setting:
+        - "debug_toolbar.middleware.DebugToolbarMiddleware",
+    - Add INTERNAL_IPS setting:
+        - INTERNAL_IPS = [
+            "127.0.0.1",
+        ]
+    - 
     
 
         
